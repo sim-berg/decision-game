@@ -22,6 +22,7 @@ jobs:
       - name: Build web
         run: |
           flutter build web --release --base-href "/decision_game/"
+          sed -i 's|\$FLUTTER_BASE_HREF|/decision_game/|' build/web/index.html
           touch build/web/.nojekyll
           cp build/web/index.html build/web/404.html
 
