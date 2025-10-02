@@ -1,0 +1,35 @@
+Decision Card Game Project Summary
+
+Overview:
+This is a Flutter-based decision card game with poker-style UI where users swipe cards to answer ethical dilemma questions.
+
+Key Features:
+- Swipeable cards with poker-style design
+- Four directional answers (♥, ♦, ♣, ♠)
+- Smooth animations for card swiping and rotation
+- Answer tracking and results evaluation
+- Responsive UI with fade-in animations
+- Direction-based scoring system
+
+File Structure:
+- lib/main.dart: Main app structure and card data
+- lib/card_stack.dart: Core card UI and swipe functionality
+- lib/card_model.dart: Data models for cards and answers
+- lib/results_page.dart: Results evaluation screen
+
+Current Implementation:
+- Cards display with poker-style UI and suit symbols
+- Swipe gestures with 15-degree rotation
+- Answer tracking and final results
+- Smooth slide animations and fade-in animations
+- Stack management with proper card display
+
+Current Issues:
+- Card animation is being fixed but not fully visible
+- The swipe animation is not being properly applied
+- Card disappears immediately but is being tracked
+- The animation is being tracked but not being played
+
+The app is working with proper functionality, but there are still issues with the animation that make the animation not being visible.
+
+The next fix is to make the animation to make the animation more visible.
