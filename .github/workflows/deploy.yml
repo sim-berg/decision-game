@@ -21,7 +21,7 @@ jobs:
 
       - name: Build web
         run: |
-          flutter build web --release --base-href "/decision_card_game1/"
+          flutter build web --release --base-href "/decision_game/"
           touch build/web/.nojekyll
           cp build/web/index.html build/web/404.html
 
